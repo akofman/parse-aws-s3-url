@@ -1,6 +1,6 @@
 {
 	"name": "parse-aws-s3-url",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Parse an S3 URL",
 	"license": "MIT",
 	"repository": "akofman/parse-aws-s3-url",

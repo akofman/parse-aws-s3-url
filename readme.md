@@ -16,7 +16,7 @@ const parseS3Url = require('parse-aws-s3-url');
 
 const parts = parseS3Url('s3://my-bucket/path/to/my/file.png');
 
-//=> parts = {bucket: 'my-bucket', key: 'path/to/my/file.png'}
+//=> parts = {Bucket: 'my-bucket', Key: 'path/to/my/file.png'}
 ```
 
 ## License
