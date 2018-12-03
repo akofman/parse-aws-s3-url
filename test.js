@@ -8,3 +8,14 @@ test('main', t => {
 	);
 });
 
+test('throws when S3 URL is not specified', t => {
+	t.throws(() => {
+		parseS3Url();
+	}, 'Expected S3 URL argument');
+});
+
+test('throws when S3 URL is not valid', t => {
+	t.throws(() => {
+		parseS3Url('http://www.test.com');
+	}, 'Not a valid S3 URL: http://www.test.com');
+});
