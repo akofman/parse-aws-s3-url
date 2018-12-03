@@ -12,7 +12,7 @@ module.exports = s3Url => {
 	}
 	
 	return {
-	  bucket: match[1],
-	  key: match[2]
+	  Bucket: match[1],
+	  Key: match[2]
 	};
 };
