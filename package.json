@@ -1,0 +1,29 @@
+{
+	"name": "parse-s3-url",
+	"version": "1.0.0",
+	"description": "Parse an S3 URL",
+	"license": "MIT",
+	"repository": "akofman/parse-s3-url",
+	"author": {
+		"name": "Alexis Kofman",
+		"email": "alexis.kofman@gmail.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"s3",
+		"aws",
+		"parse",
+		"url"
+	],
+	"devDependencies": {
+		"ava": "^0.25.0"
+	}
+}
