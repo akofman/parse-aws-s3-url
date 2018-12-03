@@ -1,9 +1,9 @@
 {
-	"name": "parse-s3-url",
+	"name": "parse-aws-s3-url",
 	"version": "1.0.0",
 	"description": "Parse an S3 URL",
 	"license": "MIT",
-	"repository": "akofman/parse-s3-url",
+	"repository": "akofman/parse-aws-s3-url",
 	"author": {
 		"name": "Alexis Kofman",
 		"email": "alexis.kofman@gmail.com"

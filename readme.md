@@ -1,4 +1,4 @@
-# parse-s3-url [![Build Status](https://travis-ci.org/akofman/parse-s3-url.svg?branch=master)](https://travis-ci.org/akofman/parse-s3-url)
+# parse-aws-s3-url [![Build Status](https://travis-ci.org/akofman/parse-aws-s3-url.svg?branch=master)](https://travis-ci.org/akofman/parse-aws-s3-url)
 
 > Parse an S3 URL and returns a suitable object for using with AWS SDK methods.
 
@@ -6,13 +6,13 @@
 ## Install
 
 ```
-$ npm install parse-s3-url
+$ npm install parse-aws-s3-url
 ```
 
 ## Usage
 
 ```js
-const parseS3Url = require('parse-s3-url');
+const parseS3Url = require('parse-aws-s3-url');
 
 const parts = parseS3Url('s3://my-bucket/path/to/my/file.png');
 
